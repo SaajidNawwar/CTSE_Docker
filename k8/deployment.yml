@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: gcr.io/kubernetes-project-350417/node-app:v1
+          image: gcr.io/kubernetes-project-350417/github.com/saajidnawwar/ctse_docker
           ports:
             - containerPort: 3000
