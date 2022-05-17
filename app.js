@@ -6,7 +6,7 @@ const router = require("./src/routes");
 
 const { json, urlencoded } = express;
 const app = express();
-const port = process.env.PORT || 2000;
+const port = process.env.PORT || 3000;
 
 app.use(json());
 app.use(urlencoded({ extended: false }));
